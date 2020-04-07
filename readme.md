@@ -12,19 +12,31 @@
 
 ## Notes
 
+I was inspired by a great article on propery use of Secure shell(ssh).
+I decided to setup a local Bastion architecture.
+In this video we will cover what I learned.
+
 The article can be found [here](https://gravitational.com/blog/how-to-ssh-properly/).
 
 ### What is a Bastion?
 
 ### ssh
 
-### sshd config
+ssh is considered by most as the standard way to connect to remote environments.
 
-### ssh certificate
+You can read more about ssh [here](https://www.ssh.com/ssh/command/).
 
-### ssh known_hosts
+The following is what we need to look at to get our ssh setup ready:
+
+- sshd_config
+- ssh certificate
+- ssh known_hosts
 
 ### Google authenticator
+
+Adding 2-factor authentication to our Bastion adds yet another layer of security.
+
+You can read more about 2-factor authentication [here](https://en.wikipedia.org/wiki/Multi-factor_authentication).
 
 App can be found [here](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en).
 
