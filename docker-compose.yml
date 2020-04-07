@@ -1,0 +1,29 @@
+version: "3.7"
+
+services: 
+  bastion:
+    build:
+      context: .
+      dockerfile: Bastion.Dockerfile
+    ports: 
+      - "22:22"
+    container_name: bastion
+    hostname: bastion
+    cap_add: 
+      - NET_ADMIN
+  testing:
+    build:
+      context: .
+      dockerfile: Services.Dockerfile
+    cap_add: 
+      - NET_ADMIN
+    hostname: testing
+    container_name: testing
+  prod:
+    build:
+      context: .
+      dockerfile: Services.Dockerfile
+    cap_add: 
+      - NET_ADMIN
+    hostname: prod
+    container_name: prod
