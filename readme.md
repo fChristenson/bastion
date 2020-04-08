@@ -34,7 +34,7 @@ ssh is considered by most as the standard way to connect to remote environments.
 
 You can read more about ssh [here](https://www.ssh.com/ssh/command/).
 
-The following is what we need to look at to get our ssh setup ready:
+The following is what we need to look at to get our ssh server setup ready:
 
 - sshd_config
 - ssh certificate
