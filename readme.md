@@ -44,10 +44,18 @@ The following is what we need to look at to get our ssh server setup ready:
 
 Adding 2-factor authentication to our Bastion host adds yet another layer of security.
 
+In order to use the Google authentication library we will need to update our sshd PAM config.
+
+#### PAM
+
+> Linux-PAM (short for Pluggable Authentication Modules which evolved from the Unix-PAM architecture) is a powerful suite of shared libraries used to dynamically authenticate a user to applications (or services) in a Linux system. - [1]
+
 You can read more about 2-factor authentication [here](https://en.wikipedia.org/wiki/Multi-factor_authentication).
 
-App can be found [here](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en).
+The Google authenticator app can be found [here](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en).
 
-CLI can be found [here](https://github.com/google/google-authenticator-libpam/blob/master/man/google-authenticator.1.md).
+The Google authenticator CLI can be found [here](https://github.com/google/google-authenticator-libpam/blob/master/man/google-authenticator.1.md).
 
-### PAM
+### References
+
+[1] https://www.tecmint.com/configure-pam-in-centos-ubuntu-linux/
