@@ -18,7 +18,15 @@ In this video we will cover what I learned.
 
 The article can be found [here](https://gravitational.com/blog/how-to-ssh-properly/).
 
-### What is a Bastion?
+### What is a Bastion host?
+
+A Bastion host is a computer on a network that is designed to be a secure gateway.
+The internal network can then trust that the user can be trusted.
+
+The internal network still needs to have basic security.
+If an attacker gets by the Bastion host the attacker could compromise the entire network.
+
+You can read more about Bastion hosts [here](https://en.wikipedia.org/wiki/Bastion_host).
 
 ### ssh
 
