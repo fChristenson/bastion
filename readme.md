@@ -42,7 +42,7 @@ The following is what we need to look at to get our ssh server setup ready:
 
 ### Google authenticator
 
-Adding 2-factor authentication to our Bastion adds yet another layer of security.
+Adding 2-factor authentication to our Bastion host adds yet another layer of security.
 
 You can read more about 2-factor authentication [here](https://en.wikipedia.org/wiki/Multi-factor_authentication).
 
