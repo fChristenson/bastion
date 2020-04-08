@@ -12,7 +12,7 @@
 
 ## Notes
 
-I was inspired by a great article on propery use of Secure shell(ssh).
+I was inspired by a great article on proper use of Secure shell (ssh).
 I decided to setup a local Bastion architecture.
 In this video we will cover what I learned.
 
