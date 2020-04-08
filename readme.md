@@ -13,8 +13,8 @@
 ## Notes
 
 I was inspired by a great article on proper use of Secure shell (ssh).
-I decided to setup a local Bastion architecture.
-In this video we will cover what I learned.
+I decided to setup the Bastion architecture in the article locally.
+In this video I will cover what I learned.
 
 The article can be found [here](https://gravitational.com/blog/how-to-ssh-properly/).
 
